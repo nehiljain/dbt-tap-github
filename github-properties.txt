@@ -1,0 +1,211 @@
+Selected properties:
+
+    #Releases
+	[selected ] releases.url
+	[selected ] releases.body
+	[selected ] releases._sdc_repository
+	[selected ] releases.name
+	[automatic] releases.author.id
+	[selected ] releases.author
+	[automatic] releases.id
+	[selected ] releases.created_at
+	[selected ] releases.target_commitish
+	[selected ] releases.prerelease
+	[automatic] releases.author.login
+	[selected ] releases.published_at
+	[selected ] releases.draft
+	[selected ] releases.tag_name
+	[selected ] releases.html_url
+
+    #Commits
+	[selected ] commits._sdc_repository
+	[automatic] commits.commit.tree
+	[selected ] commits.comments_url
+	[automatic] commits.commit.message
+	[automatic] commits.commit.committer.date
+	[automatic] commits.commit.tree.url
+	[automatic] commits.commit.comment_count
+	[selected ] commits.parents
+	[automatic] commits.commit.committer.name
+	[automatic] commits.commit.author
+	[automatic] commits.commit.author.date
+	[automatic] commits.sha
+	[automatic] commits.commit.author.name
+	[automatic] commits.commit.tree.sha
+	[selected ] commits.html_url
+	[automatic] commits.commit.url
+	[automatic] commits.commit.committer.email
+	[selected ] commits.url
+	[automatic] commits.commit.author.email
+	[automatic] commits.commit.committer
+	[selected ] commits.commit
+
+    #Reviews
+	[selected ] reviews.body
+	[selected ] reviews._sdc_repository
+	[selected ] reviews.pull_request_url
+	[selected ] reviews.submitted_at
+	[automatic] reviews.id
+	[selected ] reviews.commit_id
+	[automatic] reviews.user.id
+	[selected ] reviews.user
+	[selected ] reviews.state
+	[selected ] reviews.html_url
+	[automatic] reviews.user.login
+
+    #Issues
+	[selected ] issues._sdc_repository
+	[selected ] issues.created_at
+	[automatic] issues.pull_request.diff_url
+	[selected ] issues.pull_request
+	[automatic] issues.user.gists_url
+	[automatic] issues.user.id
+	[automatic] issues.user.repos_url
+	[automatic] issues.user.site_admin
+	[selected ] issues.comments_url
+	[selected ] issues.closed_at
+	[automatic] issues.user.organizations_url
+	[selected ] issues.node_id
+	[selected ] issues.assignee
+	[automatic] issues.user.login
+	[automatic] issues.user.followers_url
+	[selected ] issues.repository_url
+	[selected ] issues.locked
+	[automatic] issues.id
+	[selected ] issues.author_association
+	[automatic] issues.user.events_url
+	[selected ] issues.state
+	[automatic] issues.user.avatar_url
+	[automatic] issues.user.received_events_url
+	[automatic] issues.pull_request.patch_url
+	[automatic] issues.user.starred_url
+	[automatic] issues.pull_request.url
+	[automatic] issues.pull_request.html_url
+	[automatic] issues.user.following_url
+	[selected ] issues.updated_at
+	[selected ] issues.labels
+	[selected ] issues.events_url
+	[selected ] issues.user
+	[selected ] issues.html_url
+	[selected ] issues.labels_url
+	[automatic] issues.user.url
+	[automatic] issues.user.html_url
+	[automatic] issues.user.node_id
+	[selected ] issues.url
+	[selected ] issues.body
+	[automatic] issues.user.gravatar_id
+	[selected ] issues.title
+	[automatic] issues.user.type
+	[automatic] issues.user.subscriptions_url
+	[selected ] issues.number
+	[selected ] issues.comments
+
+    #Review Comments
+	[selected ] review_comments.position
+	[selected ] review_comments._sdc_repository
+	[selected ] review_comments.created_at
+	[selected ] review_comments.pull_request_review_id
+	[selected ] review_comments.commit_id
+	[selected ] review_comments.diff_url
+	[selected ] review_comments.requested_reviewers
+	[automatic] review_comments.user.id
+	[selected ] review_comments.head
+	[selected ] review_comments.merge_commit_sha
+	[selected ] review_comments.comments_url
+	[selected ] review_comments.node_id
+	[selected ] review_comments.review_comments_url
+	[selected ] review_comments.assignee
+	[selected ] review_comments.path
+	[automatic] review_comments.user.login
+	[selected ] review_comments.in_reply_to_id
+	[selected ] review_comments.commits_url
+	[selected ] review_comments.locked
+	[selected ] review_comments.patch_url
+	[selected ] review_comments.review_comment_url
+	[automatic] review_comments.id
+	[selected ] review_comments.author_association
+	[selected ] review_comments.original_position
+	[selected ] review_comments.milestone
+	[selected ] review_comments.updated_at
+	[selected ] review_comments.labels
+	[selected ] review_comments.user
+	[selected ] review_comments.html_url
+	[selected ] review_comments.original_commit_id
+	[selected ] review_comments.statuses_url
+	[selected ] review_comments.body
+	[selected ] review_comments.diff_hunk
+	[selected ] review_comments.pull_request_url
+	[selected ] review_comments.requested_teams
+	[selected ] review_comments.base
+	[selected ] review_comments.issue_url
+	[selected ] review_comments.assignees
+
+    #Stargazers
+	[selected ] stargazers._sdc_repository
+	[selected ] stargazers.starred_at
+	[automatic] stargazers.user_id
+	[automatic] stargazers.user.id
+	[selected ] stargazers.user
+
+    #Assignees
+	[selected ] assignees.url
+	[selected ] assignees._sdc_repository
+	[selected ] assignees.login
+	[automatic] assignees.id
+	[selected ] assignees.type
+
+    #Pull Request
+	[selected ] pull_requests.url
+	[selected ] pull_requests.body
+	[selected ] pull_requests._sdc_repository
+	[selected ] pull_requests.merged_at
+	[automatic] pull_requests.id
+	[selected ] pull_requests.created_at
+	[selected ] pull_requests.updated_at
+	[automatic] pull_requests.user.id
+	[selected ] pull_requests.title
+	[selected ] pull_requests.labels
+	[selected ] pull_requests.state
+	[selected ] pull_requests.user
+	[selected ] pull_requests.closed_at
+	[selected ] pull_requests.number
+	[automatic] pull_requests.user.login
+
+    #Collaborators
+	[selected ] collaborators.url
+	[selected ] collaborators._sdc_repository
+	[selected ] collaborators.login
+	[automatic] collaborators.id
+	[selected ] collaborators.type
+
+    #Comments
+	[selected ] comments._sdc_repository
+	[selected ] comments.created_at
+	[automatic] comments.user.gists_url
+	[automatic] comments.user.id
+	[automatic] comments.user.repos_url
+	[automatic] comments.user.site_admin
+	[automatic] comments.user.organizations_url
+	[selected ] comments.node_id
+	[automatic] comments.user.followers_url
+	[automatic] comments.user.login
+	[automatic] comments.id
+	[selected ] comments.author_association
+	[automatic] comments.user.events_url
+	[automatic] comments.user.avatar_url
+	[automatic] comments.user.received_events_url
+	[automatic] comments.user.starred_url
+	[automatic] comments.user.following_url
+	[selected ] comments.updated_at
+	[selected ] comments.user
+	[selected ] comments.html_url
+	[automatic] comments.user.url
+	[automatic] comments.user.html_url
+	[automatic] comments.user.node_id
+	[selected ] comments.url
+	[selected ] comments.body
+	[automatic] comments.user.gravatar_id
+	[selected ] comments.issue_url
+	[automatic] comments.user.type
+	[automatic] comments.user.subscriptions_url
+	[selected ] comments.home_url
