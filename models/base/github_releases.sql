@@ -8,33 +8,23 @@ renamed as (
 
     select
 
-/*        project_id as project_id,
-        commit_id as commit_id,
-        tag_name as tag_name,
-
-        author_id as author_id,
-
-        name as release_name,
-        description as description,
-
-        created_at as created_at
-*/
-
-        url as url,
-        body as body,
         _sdc_repository as _sdc_repository,
-        name as name,
+
+        /* author as author, */
         author_id as author_id,
-        author as author,
-        id as id,
-        created_at as created_at,
-        target_commitish as target_commitish,
-        prerelease as prerelease,
         author_login as author_login,
-        published_at as published_at,
+
+        body as body,
+        created_at as created_at,
         draft as draft,
+        html_url as html_url,
+        id as id,
+        name as name,
+        prerelease as prerelease,
+        published_at as published_at,
         tag_name as tag_name,
-        html_url as html_url
+        target_commitish as target_commitish,
+        url as url
 
 
     from source
