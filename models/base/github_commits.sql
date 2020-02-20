@@ -8,33 +8,21 @@ renamed as (
 
     select
         _sdc_repository as _sdc_repository,
-
-        /* commit_author as commit_author, */
-        commit_author_date as commit_author_date,
-        commit_author_email as commit_author_email,
-        commit_author_name as commit_author_name,
-
-        commit_comment_count as commit_comment_count,
-
-        /* commit_committer as commit_committer, */
-        commit_committer_date as commit_committer_date,
-        commit_committer_email as commit_committer_email,
-        commit_committer_name as commit_committer_name,
-
-        commit_message as commit_message,
-
-        /* commit_tree as commit_tree, */
-        commit_tree_sha as commit_tree_sha,
-        commit_tree_url as commit_tree_url,
-        commit_url as commit_url,
-
-        html_url as html_url,
+        commit__author__date as commit__author__date,
+        commit__author__email as commit__author__email,
+        commit__author__name as commit__author__name,
+        commit__comment__count as commit__comment__count,
+        commit__committer__date as commit__committer__date,
+        commit__committer__email as commit__committer__email,
+        commit__committer__name as commit__committer__name,
+        commit__message as commit__message,
+        commit__tree__sha as commit__tree__sha,
+        commit__tree__url as commit__tree__url,
+        commit__url as commit__url,
+        html__url as html__url,
         parents as parents,
         sha as sha,
         url as url
-
-        /* comments_url as comments_url, */
-        /* commit as commit */
 
     from source
 
