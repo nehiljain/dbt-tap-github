@@ -9,11 +9,8 @@ renamed as (
     select
 
         _sdc_repository as _sdc_repository,
-
-        /* author as author, */
-        author_id as author_id,
-        author_login as author_login,
-
+        author__id as author__id,
+        author__login as author__login,
         body as body,
         created_at as created_at,
         draft as draft,
