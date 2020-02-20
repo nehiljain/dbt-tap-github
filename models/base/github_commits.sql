@@ -16,7 +16,6 @@ renamed as (
         commit__comment_count as commit__comment_count,
         parents as parents,
         commit__committer__name as commit__committer__name,
-        #author as #author,
         commit__author__date as commit__author__date,
         sha as sha,
         commit__author__name as commit__author__name,
