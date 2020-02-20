@@ -16,4 +16,4 @@ models:
       materialized: table
 
     vars:
-      schema:                     # The schema where the raw github tables are located
+      schema: "tap_github"   # The schema where the raw github tables are located
