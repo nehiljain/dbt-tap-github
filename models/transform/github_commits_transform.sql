@@ -1,7 +1,7 @@
 WITH commits AS (
 
      SELECT *
-     FROM {{ref('gitlab_commits')}}
+     FROM {{ref('github_commits')}}
 
 )
 
