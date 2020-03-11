@@ -1,8 +1,8 @@
-WITH commits AS (
+WITH issues AS (
 
      SELECT *
      FROM {{ref('github_issues')}}
 
 )
 
-SELECT * FROM commits
+SELECT * FROM issues
