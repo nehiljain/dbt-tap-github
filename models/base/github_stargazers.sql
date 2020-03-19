@@ -9,8 +9,8 @@ renamed as (
     select
 
         _sdc_repository as _sdc_repository,
-        starred_at as starred_at,
-        user_id as user_id
+        started_at as started_at,
+        user__id as user_id
 
     from source
 

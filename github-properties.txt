@@ -142,7 +142,7 @@ Selected properties:
 
     #Stargazers
 	[selected ] stargazers._sdc_repository
-	[selected ] stargazers.starred_at
+	[selected ] stargazers.started_at
 	[automatic] stargazers.user_id
 	[automatic] stargazers.user.id
 	[selected ] stargazers.user
