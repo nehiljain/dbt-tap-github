@@ -1,6 +1,8 @@
 name: 'tap_github'
 version: '0.0.1'
 
+profile: 'airflow_etl'
+
 source-paths: ["models"]     # paths with source code to compile
 analysis-paths: ["analysis"] # path with analysis files which are compiled, but not run
 target-path: "target"        # path for compiled code
